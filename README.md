@@ -13,7 +13,7 @@
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/msy1717/AutoPostChannel)
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2Fmsy1717%2FAutoPostChannel&plugins=redis&envs=BOT_TOKEN%2COWNERS&BOT_TOKENDesc=Bot+token%2C+from+%40BotFather&OWNERSDesc=User+IDs+of+users+who+own+the+bot%2C+split+by+space.&referralCode=xditya)
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2Fmsy1717%2FAutoPostChannel)
 
 
 

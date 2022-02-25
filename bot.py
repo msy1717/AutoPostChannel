@@ -26,7 +26,7 @@ except:
 
 @beast.on(events.NewMessage(pattern="/start"))
 async def _(event):
-    sed = await datgbot(GetFullUserRequest(event.sender_id))
+    sed = await beast(GetFullUserRequest(event.sender_id))
     await event.reply(f"Hi `{sed.user.first_name}`!\n\nI am a channel auto-post bot!! Read /help to know more!\n\nI can be used in only two channels (one user) at a time. Kindly deploy your own bot.\n\n[More bots](https://t.me/BeastX_Bots)..", buttons=[Button.url("Repo", url="https://github.com/msy1717/AutoPostChannel"), Button.url("Dev", url="https://t.me/Godmrunal")], link_preview=False)
 
 

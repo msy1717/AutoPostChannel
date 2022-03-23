@@ -1,0 +1,84 @@
+{
+
+    "name": "Channel Auto Post ",
+
+    "description": "Channel Auto Post by @BeastX_Bots.",
+
+    "logo": "",
+
+    "keywords": [
+
+        "telegram",
+
+        "telethon",
+
+        "telegram-bot",
+
+        "beastX_bots"
+
+    ],
+
+    "repository": "https://github.com/msy1717/AutoPostChannel",
+
+    "website": "t.me/BeastX_Bots",
+
+    "success_url": "https://t.me/BeastX_Bots",
+
+    "env": {
+
+        "BOT_TOKEN": {
+
+            "description": "Bot token, get it from @BotFather.",
+
+            "value": ""
+
+        },
+
+        "APP_ID": {
+
+            "description": "Enter App id here",
+
+            "value": ""
+
+        },
+
+        "API_HASH": {
+
+            "description": "Enter Api hash .",
+
+            "value": ""
+
+        },
+
+        "FROM_CHANNEL": {
+
+            "description": "From CHANNEL ID",
+
+            "value": ""
+
+        }
+
+    },
+
+       "TO_CHANNEL": {
+
+            "description": "TO CHANNEL ID",
+
+            "value": ""
+
+        }
+
+    },
+
+    "buildpacks": [
+
+        {
+
+            "url": "heroku/python"
+
+        }
+
+    ]
+
+}
+

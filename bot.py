@@ -12,8 +12,8 @@ logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s'
 # start the bot
 print("Starting...")
 try:
-    apiid = config("APP_ID", cast=int)
-    apihash = config("API_HASH")
+    apiid = 6
+    apihash = "eb06d4abfb49dc3eeb1aeb98ae0f581e"
     bottoken = config("BOT_TOKEN")
     frm = config("FROM_CHANNEL", cast=int)
     tochnl = config("TO_CHANNEL", cast=int)
